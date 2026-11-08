@@ -1,0 +1,118 @@
+# Citation metadata of the UWB-ASC testing ground. The release date and both
+# DOIs were filled on 2026-11-08 from the DOIs reserved on Zenodo, before the
+# first version was published.
+cff-version: 1.2.0
+message: "If you use these data or this code, please cite the dataset as below and the data descriptor."
+type: dataset
+title: "UWB Anchor Self-Calibration Dataset (UWB-ASC)"
+version: "1.0.0"
+date-released: "2026-11-08"
+doi: "10.5281/zenodo.24055896"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24055896"
+    description: "The version DOI of version 1.0.0 on Zenodo."
+  - type: doi
+    value: "10.5281/zenodo.24055895"
+    description: "The concept DOI of all versions on Zenodo, which resolves to the latest version."
+abstract: >-
+  A testing ground for the self-calibration of UWB anchor positions: two
+  deployments of Qorvo MDEK1001 modules in one industrial hall in Torgau,
+  Germany, with surveyed node positions, motion-capture truth for the walks of
+  the LOS deployment and surveyed markers for the NLOS deployment, a seeded
+  range-error generator as code with frozen synthetic draws on the surveyed
+  geometry and a tool that draws new scenes, the canonical measurement graph
+  with four topology views, the raw recordings with the scripts that rebuild
+  the canonical files, and readers for two public range recordings.
+authors:
+  - family-names: "Schwarzbach"
+    given-names: "Paul"
+    orcid: "https://orcid.org/0000-0002-1091-782X"
+    affiliation: "TUD Dresden University of Technology"
+# The data and the documentation are under CC BY 4.0 and the code under MIT (README.md,
+# "Licences"). CFF reads a list of licences as alternatives (OR), which would offer the
+# data under MIT, so only the licence of the cited dataset stands here.
+license: "CC-BY-4.0"
+repository-code: "https://github.com/PaulSchwarzbach/UWB-ASC-dataset"
+keywords:
+  - "anchor self-calibration"
+  - "auto-positioning"
+  - "indoor localization"
+  - "indoor positioning"
+  - "self-positioning"
+  - "synthetic data"
+  - "two-way ranging"
+  - "ultra-wideband (UWB)"
+references:
+  - type: article
+    title: "Statistical Evaluation and Synthetic Generation of Ultra-Wideband Distance Measurements for Indoor Positioning Systems"
+    authors:
+      - family-names: "Schwarzbach"
+        given-names: "P."
+      - family-names: "Weber"
+        given-names: "R."
+      - family-names: "Michler"
+        given-names: "O."
+    journal: "IEEE Sensors Journal"
+    volume: 22
+    issue: "6"
+    start: 4836
+    end: 4843
+    year: 2022
+    doi: "10.1109/JSEN.2021.3121627"
+    notes: "The range-error model of the synthetic draws and the draw tool."
+  - type: data
+    title: "Two-Way-Ranging-based Cooperative Localization with an Open UWB Dataset from Bern-University (TWR-CLOUD-Bern)"
+    authors:
+      - family-names: "Xenakis"
+        given-names: "D."
+      - family-names: "Di Maio"
+        given-names: "A."
+      - family-names: "Braun"
+        given-names: "T."
+    publisher:
+      name: "Zenodo"
+    version: "5"
+    year: 2026
+    doi: "10.5281/zenodo.20277908"
+    notes: "Read by Code/external/, not redistributed."
+  - type: article
+    title: "Descriptor: Two-Way-Ranging-Based Cooperative Localization With an Open UWB Dataset From Bern-University (TWR-CLOUD-Bern)"
+    authors:
+      - family-names: "Xenakis"
+        given-names: "D."
+      - family-names: "Di Maio"
+        given-names: "A."
+      - family-names: "Braun"
+        given-names: "T."
+    journal: "IEEE Data Descriptions"
+    volume: 3
+    start: 441
+    end: 452
+    year: 2026
+    doi: "10.1109/IEEEDATA.2026.3701019"
+  - type: data
+    title: "selfloc: Anchor Self-Localization"
+    authors:
+      - name: "d3s-trento"
+    repository: "https://github.com/d3s-trento/selfloc"
+    commit: "39c127198a5247dda60e7e711969a286053bac35"
+    year: 2023
+    notes: "Read by Code/external/, not redistributed. No licence stated."
+  - type: article
+    title: "Self-Localization of Ultra-Wideband Anchors: From Theory to Practice"
+    authors:
+      - family-names: "Corbalán"
+        given-names: "P."
+      - family-names: "Picco"
+        given-names: "G. P."
+      - family-names: "Coors"
+        given-names: "M."
+      - family-names: "Jain"
+        given-names: "V."
+    journal: "IEEE Access"
+    volume: 11
+    start: 29711
+    end: 29725
+    year: 2023
+    doi: "10.1109/ACCESS.2023.3261567"

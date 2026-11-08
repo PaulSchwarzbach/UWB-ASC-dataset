@@ -1,0 +1,3 @@
+# Written by the build. Git converts no line ending of any file, so every
+# file keeps its bytes on checkout and SHA256SUMS holds on every platform.
+* -text

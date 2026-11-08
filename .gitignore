@@ -1,0 +1,12 @@
+# Outputs of the documented commands (README.md) and local environments, kept
+# out of commits. The release itself holds none of them.
+/raw/
+/rebuild/
+/facts/
+/figures/
+/draws/
+__pycache__/
+*.egg-info/
+/build/
+.venv/
+venv/

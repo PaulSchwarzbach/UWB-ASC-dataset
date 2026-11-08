@@ -1,0 +1,70 @@
+{
+  "title": "UWB Anchor Self-Calibration Dataset (UWB-ASC)",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "description": "Anchor self-calibration estimates the positions of the fixed nodes of an indoor radio positioning or localization system from observations among the nodes and to mobile devices. UWB-ASC is a testing ground for such methods, recorded with ultra-wideband (UWB) two-way ranging. Two deployments of Qorvo MDEK1001 modules in one industrial hall in Torgau, Germany, come with surveyed node positions: the LOS deployment (2025-10-22) with motion-capture truth for the walks of a mobile tag, and the NLOS deployment (2025-03-13) with a tag placed on surveyed markers. A seeded range-error generator ships as code, with frozen synthetic draws on the surveyed anchor geometry and a tool that draws new scenes, noise-free or with known errors. Every session is one superset measurement graph, and four topology views select from it. The deposit holds the canonical Parquet and YAML sessions with their QA reports, field LOS/NLOS labels, the raw recordings with the scripts that rebuild the canonical files, the radiocal loader, and the readers of two public range recordings, whose data are not redistributed.",
+  "creators": [
+    {
+      "name": "Schwarzbach, Paul",
+      "affiliation": "TUD Dresden University of Technology",
+      "orcid": "0000-0002-1091-782X"
+    }
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "notes": "Data under CC BY 4.0 (LICENSE-DATA), code under MIT (LICENSE-CODE). Version 1.0.0 is the first release. CHANGELOG.md lists the changes of each version.",
+  "keywords": [
+    "anchor self-calibration",
+    "auto-positioning",
+    "indoor localization",
+    "indoor positioning",
+    "self-positioning",
+    "synthetic data",
+    "two-way ranging",
+    "ultra-wideband (UWB)"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20277908",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1109/IEEEDATA.2026.3701019",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/d3s-trento/selfloc/tree/39c127198a5247dda60e7e711969a286053bac35",
+      "relation": "references",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.1109/ACCESS.2023.3261567",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1109/JSEN.2021.3121627",
+      "relation": "references",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.1109/JISPIN.2026.3687458",
+      "relation": "isReferencedBy",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "https://github.com/PaulSchwarzbach/UWB-ASC-dataset/tree/v1.0.0",
+      "relation": "isSupplementTo",
+      "resource_type": "software",
+      "scheme": "url"
+    }
+  ]
+}

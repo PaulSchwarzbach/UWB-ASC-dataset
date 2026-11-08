@@ -1,0 +1,68 @@
+session_id: syn_nlos_06
+campaign: synthetic
+motion: static
+synthetic: true
+draw:
+  condition: nlos
+  index: 6
+  seed: 6
+  bias_m: 0.0
+  ranges_sha256: 6cedadb6bd556791
+  ranges_sha256_reference: equal to frozen.csv of the tutorial's synthetic baseline
+    (Code/methods/results/synthetic_baseline/frozen.csv at 633fb95)
+  generator_commit: 633fb950fced9ca4097bbd80675c47f2d2b81a85
+  generator_sha256:
+    range_errors.py: 8fe27c80e545c2216af4cc617b3300fc523259519a1350a67843f365e9cc0494
+    synthetic.py: bcdc86ca74ac8dd128a7b482a5c7b7449e14b4e4824903801c2fbb5667ec7170
+  radiocal_version: 1.0.0
+  numpy_version: 2.3.5
+  nlos_pairs:
+  - node_a: '4197'
+    node_b: 4AA4
+    excess_m: 7.601943
+  - node_a: '4503'
+    node_b: '5388'
+    excess_m: 1.131003
+  - node_a: '4503'
+    node_b: D38F
+    excess_m: 2.528847
+  - node_a: 4AA4
+    node_b: 5BB6
+    excess_m: 2.235434
+  - node_a: 4AA4
+    node_b: 8B05
+    excess_m: 2.837074
+  - node_a: 4AA4
+    node_b: '9911'
+    excess_m: 1.767849
+  - node_a: '5388'
+    node_b: D38F
+    excess_m: 6.308463
+  - node_a: 5BB6
+    node_b: 8B05
+    excess_m: 4.802769
+  - node_a: 5BB6
+    node_b: '9911'
+    excess_m: 0.533068
+  - node_a: 5BB6
+    node_b: D38F
+    excess_m: 0.409493
+  - node_a: 8AA5
+    node_b: 8B05
+    excess_m: 1.366015
+  - node_a: 8AA5
+    node_b: '9911'
+    excess_m: 0.771822
+t_start: 0.0
+t_end: 15.92
+sources:
+- path: set_b/nodes.yaml
+  role: geometry
+  sha256: bc92cf8f640214d654f938393526bf8046126b7f66232a2659e5c2dc60264ae5
+counts:
+  range_epochs: 200
+  directed_ranges: 18000
+  dropped_invalid: 0
+  truth_poses: 0
+notes:
+- 'SYNTHETIC DATA: draw 6 of condition nlos (seed 6).'

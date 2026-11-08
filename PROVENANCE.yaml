@@ -1,0 +1,14 @@
+# Provenance of this release, written by Code/release/build_dataset.py of the
+# data-descriptor project. Data/ and Code/ hold the bytes of the tutorial
+# repository at rc_commit, except Code/descriptor/. That folder and the
+# files at the release root, docs/ and tests/ hold those of the descriptor
+# repository at dd_commit. Both are the working repositories of the
+# companion tutorial and of the data descriptor, which this release does
+# not contain. manifest_sha256 is the SHA-256 of the build's manifest, the
+# list of every source it copied. The build writes this file,
+# .gitattributes and SHA256SUMS.
+rc_commit: e5ae57ffb62735c3e3258cedd3298e3eca54adec
+rc_branch: recut
+rc_commit_date: '2026-11-08T19:40:31+01:00'
+dd_commit: f821cc25951198590adb676e1314bfdc06709e3d
+manifest_sha256: 9dd62e84f3866bfe9cc52f833c3aa493972adcfe5305468c50ea5e342a4c9b2b
