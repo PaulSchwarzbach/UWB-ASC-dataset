@@ -25,6 +25,12 @@
   ],
   "related_identifiers": [
     {
+      "identifier": "10.48550/arXiv.2611.11579",
+      "relation": "isDescribedBy",
+      "resource_type": "publication-preprint",
+      "scheme": "doi"
+    },
+    {
       "identifier": "10.5281/zenodo.20277908",
       "relation": "references",
       "resource_type": "dataset",

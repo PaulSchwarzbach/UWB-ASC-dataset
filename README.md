@@ -13,8 +13,8 @@ recordings into the same format. Every session is one superset measurement
 graph, and four topology views select from it. The raw recordings, the
 canonical sessions, the scripts that rebuild the one from the other and the
 `radiocal` loader ship together. The data descriptor "Descriptor: UWB Anchor
-Self-Calibration Dataset (UWB-ASC)" (P. Schwarzbach, submitted to IEEE Data
-Descriptions) describes the release.
+Self-Calibration Dataset (UWB-ASC)" (P. Schwarzbach, preprint arXiv:2611.11579,
+submitted to IEEE Data Descriptions) describes the release.
 
 ## Contents and layout
 
@@ -424,8 +424,23 @@ Cite the deposit, preferably by its version DOI:
 }
 ```
 
-and the data descriptor named at the top of this file. `CITATION.cff` holds
-the same metadata.
+and the data descriptor, by its preprint until the article appears:
+
+```bibtex
+@misc{schwarzbach_uwbasc_descriptor_2026,
+  author        = {Schwarzbach, Paul},
+  title         = {Descriptor: {UWB} Anchor Self-Calibration Dataset ({UWB-ASC})},
+  year          = {2026},
+  eprint        = {2611.11579},
+  archivePrefix = {arXiv},
+  primaryClass  = {eess.SP},
+  doi           = {10.48550/arXiv.2611.11579},
+  note          = {Submitted to IEEE Data Descriptions}
+}
+```
+
+`CITATION.cff` holds the same metadata, with the data descriptor as its
+preferred citation.
 
 Users of the readers in `Code/external/` cite the recordings they convert,
 each by its record and its paper:

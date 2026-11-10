@@ -1,7 +1,19 @@
 # Changelog
 
 Changes of the UWB-ASC testing ground, one section per published version. The
-version numbers are those of the Zenodo versions.
+version numbers are those of the Zenodo versions. Changes on GitHub `main` that
+no version holds yet stand under *Unreleased*.
+
+## [Unreleased]
+
+Documentation and metadata on GitHub `main`, not yet in a Zenodo version:
+- the preprint of the data descriptor, arXiv:2611.11579
+  (doi 10.48550/arXiv.2611.11579), in the README (its opening and *How to
+  cite*), as the preferred citation of `CITATION.cff`, as `isDescribedBy` in
+  `.zenodo.json`, and in `docs/FAIR.md`, whose row on the dataset and its paper
+  is now met;
+- `PROVENANCE.yaml` names the commits of this build, whose release sources
+  equal those of 1.0.0.
 
 ## [1.0.0] - 2026-11-08
 

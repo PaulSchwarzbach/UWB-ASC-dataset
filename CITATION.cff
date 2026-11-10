@@ -1,8 +1,9 @@
 # Citation metadata of the UWB-ASC testing ground. The release date and both
 # DOIs were filled on 2026-11-08 from the DOIs reserved on Zenodo, before the
-# first version was published.
+# first version was published. The preferred citation, the preprint of the
+# data descriptor, was added on 2026-11-10 after its arXiv announcement.
 cff-version: 1.2.0
-message: "If you use these data or this code, please cite the dataset as below and the data descriptor."
+message: "If you use these data or this code, please cite the data descriptor (preferred-citation) and the dataset by its DOI."
 type: dataset
 title: "UWB Anchor Self-Calibration Dataset (UWB-ASC)"
 version: "1.0.0"
@@ -43,6 +44,18 @@ keywords:
   - "synthetic data"
   - "two-way ranging"
   - "ultra-wideband (UWB)"
+preferred-citation:
+  type: article
+  title: "Descriptor: UWB Anchor Self-Calibration Dataset (UWB-ASC)"
+  authors:
+    - family-names: "Schwarzbach"
+      given-names: "Paul"
+      orcid: "https://orcid.org/0000-0002-1091-782X"
+      affiliation: "TUD Dresden University of Technology"
+  year: 2026
+  doi: "10.48550/arXiv.2611.11579"
+  url: "https://arxiv.org/abs/2611.11579"
+  notes: "Preprint arXiv:2611.11579 [eess.SP], submitted to IEEE Data Descriptions."
 references:
   - type: article
     title: "Statistical Evaluation and Synthetic Generation of Ultra-Wideband Distance Measurements for Indoor Positioning Systems"
